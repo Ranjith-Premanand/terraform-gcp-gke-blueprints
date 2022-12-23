@@ -1,3 +1,3 @@
 locals {
-  name_prefix = "${}"
+  name_prefix = "${var.environment}-gke-cluster"
 }

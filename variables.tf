@@ -5,5 +5,5 @@ variable "project" {
 
 variable "environment" {
        type   = string
-       description = "GCP project"
+       description = "environment targeted"
 }
